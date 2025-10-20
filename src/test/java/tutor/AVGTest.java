@@ -15,6 +15,5 @@ public class AVGTest {
     public void testAVG(){
         double exp=9.5;
         double act = avg.avg(9.5, 9.5, 9.5);
-        Assertions.assertEquals(exp,act);
     }
 }

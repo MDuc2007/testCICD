@@ -9,7 +9,7 @@ public class TongMangSN {
             throw new IllegalArgumentException("Mang khong duoc null");
         }
         for(int num : arr){
-            if(num<0||num>1000){
+            if(num<1||num>1000){
                 throw new IllegalArgumentException("PTu trong khoang 0-1000");
             }
         }
